@@ -1,0 +1,4 @@
+token  =  "AgAAAABBNLNyAATuwQ4J2wFim0IEupgFHJ2GnjE"
+cloud_id  = "b1gmeungv2hc95u2986h"
+folder_id = "b1gtdfj0iq939kfud3t9"
+public_key_path = "~/.ssh/id_rsa.pub"
