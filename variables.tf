@@ -1,19 +1,19 @@
 variable "token" {
 	description = "Задайте ваш Yandex Cloud security OAuth token"
 	type = string
-	default = "AgAAAABBNLNyAATuwQ4J2wFim0IEupgFHJ2GnjE"
+	default = ""
 }
 
 variable "folder_id" {
 	description = "Задайте ваш Yandex Cloud Folder ID where resources will be created"
 	type = string
-	default = "b1gtdfj0iq939kfud3t9"
+	default = ""
 }
 
 variable "cloud_id" {
 	description = "Задайте ваш Yandex Cloud ID where resources will be created"
 	type = string
-	default = "b1gmeungv2hc95u2986h"
+	default = ""
 }
 
 variable "zone" {
