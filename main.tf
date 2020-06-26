@@ -16,7 +16,7 @@ resource "yandex_vpc_subnet" "subnet-1" {
 	name = "subnet-1"
 	zone = var.zone
 	network_id = yandex_vpc_network.main-skb.id
-	v4_cidr_blocks = ["10.100.100.0/24"]
+	v4_cidr_blocks = ["192.168.1.0/24"]
 }
 
 //Создаем виртуальные машины в нужной подсети
